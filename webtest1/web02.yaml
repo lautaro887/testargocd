@@ -23,7 +23,7 @@ spec:
       volumes:
       - name: html-volume
         configMap:
-          name: web2    -html
+          name: web2-html
 ---
 apiVersion: v1
 kind: ConfigMap
